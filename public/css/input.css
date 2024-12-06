@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --main--:"red"
+}
+@keyframes slide {
+    0%{
+       margin-left: 0; 
+    }
+    100%{
+        margin-left: 100;
+    }
+}
+
+.slode{
+    animation: slide 1s infinite;
+}
